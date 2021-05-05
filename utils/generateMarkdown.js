@@ -12,7 +12,7 @@ const renderLicenseSection = license => {};
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = answers => {
-  return `# ${answers.projectTitle}
+  return `# ${answers.title}
 
   ## Description 
   ${answers.description}
@@ -28,33 +28,23 @@ const generateMarkdown = answers => {
   - [Questions](#questions)
 
   ## Installation
-  whats the installation process to install npm and node index.js locally?
   ${answers.installation}
 
   ## Usage
-  How you use this application?
   ${answers.usage}
-  //When the app is running answer all questions
-  // After all questions view generated README markdown file
 
   ## License
-  //render badge name here
-  ${renderLicenceBadge(answers.license)}
+  ${answers.license}
 
   ## Contributing
   ${answers.contribution}
-  //Open an issue or a pull request and I will sort it.
 
   ## Tests
-  (question 7 - input)
-  There are no tests for this app
+  ${answers.tests}
 
   ## Questions
-  ${answers.link}
-  ${answers.emailID}
-- View my [GitHub](https://github.com/surajverma2587) profile (question 8 - input)
-- Email me at bob@email.com (question 9 - input)
-
+- View my [GitHub](${answers.github}) profile
+- Email me at ${answers.email}
 `;
 };
 

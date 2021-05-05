@@ -1,7 +1,7 @@
 # Title
 
-## Getting started
+## Link to Github Profile
 
-## Screenshot
+## Screenshots
 
-## Deployed link
+## Link to the deployed application
