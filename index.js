@@ -35,7 +35,7 @@ const init = async () => {
       name: "license",
       type: "list",
       message: "Please select your licence for this project.",
-      choices: ["APACHE_2.0", "MIT", "Modified-BSD", "Expat", "None"],
+      choices: ["APACHE_2.0", "MIT", "Modified-BSD", "GNU LGPL-3.0", "None"],
     },
     {
       name: "description",

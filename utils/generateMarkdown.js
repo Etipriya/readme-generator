@@ -10,8 +10,8 @@
 //   if (license === "Modified-BSD") {
 //     return "Licensed under the [Modified-BSD License] (https://www.gnu.org/licenses/license-list.html#ModifiedBSD)";
 //   }
-//   if (license === "Expat") {
-//     return "Licensed under the [Expat License] (https://www.apache.org/licenses/License-2.0)";
+//   if (license === "GNU LGPL-3.0") {
+//     return "Licensed under the [GNU LGPL-3.0 License] (http://fsf.org/)";
 //   }
 //   if (license === "None") {
 //     return "No License";
@@ -32,7 +32,7 @@ const generateMarkdown = answers => {
 
   ${
     answers.license !== "None"
-      ? !`[${answers.license}license](https://img.shields.io/badge/license-${answers.license}-green)`
+      ? !`[${answers.license}license](https://opensource.org/licenses${answers.license}/alphabetical)`
       : ""
   }
 
