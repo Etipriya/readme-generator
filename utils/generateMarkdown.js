@@ -68,6 +68,7 @@ const generateMarkdown = answers => {
 - View my [GitHub](${answers.github}) profile
 - Email me at ${answers.email}
 `;
+  const newFile = (answers, generateMarkdown);
 };
 
 module.exports = generateMarkdown;

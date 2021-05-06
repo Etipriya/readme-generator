@@ -3,8 +3,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
-
 // function to handle your answers
 const handleAnswers = answers => {
   const markdown = generateMarkdown(answers);
@@ -21,7 +19,19 @@ const getAnswersFromQuestions = async questions => {
 };
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data) => {};
+function createReadme(answers, generateMarkdown) {
+  //fs
+  fs.writeFile(
+    `./${answers.toLowerCase().split("").join("")}.md`,
+    generateMarkdown,
+    err => {
+      if (err) {
+        console.log(err);
+      }
+      console.log("Your README has been generated");
+    }
+  );
+}
 
 // TODO: Create a function to initialize app
 const init = async () => {
@@ -34,7 +44,7 @@ const init = async () => {
     {
       name: "license",
       type: "list",
-      message: "Please select your licence for this project.",
+      message: "What license did you used?",
       choices: ["APACHE_2.0", "MIT", "Modified-BSD", "GNU LGPL-3.0", "None"],
     },
     {
@@ -45,14 +55,12 @@ const init = async () => {
     {
       name: "installation",
       type: "input",
-      message:
-        "What installation instructions would you give for your application?",
+      message: "Instructions to be followed?",
     },
     {
       name: "usage",
       type: "input",
-      message:
-        "When the app is running, do you answer all the questions Y or N?",
+      message: "How do you used your application?",
     },
     {
       name: "contribution",
