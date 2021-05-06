@@ -26,13 +26,15 @@
 // If there is no license, return an empty string
 //const renderLicenseSection = license => {};
 
+const inquirer = require("inquirer");
+
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = answers => {
   return `# ${answers.title}
 
   ${
     answers.license !== "None"
-      ? !`[${answers.license}license](https://opensource.org/licenses${answers.license}/alphabetical)`
+      ? `![${answers.license}license](https://opensource.org/licenses${answers.license}/alphabetical)`
       : ""
   }
 
@@ -68,7 +70,6 @@ const generateMarkdown = answers => {
 - View my [GitHub](${answers.github}) profile
 - Email me at ${answers.email}
 `;
-  const newFile = (answers, generateMarkdown);
 };
 
 module.exports = generateMarkdown;

@@ -1,16 +1,13 @@
-# Project Title
+# f
 
-![mit license](https://img.shields.io/badge/license-MIT-green)
+  ![GNU LGPL-3.0license](https://opensource.org/licensesGNU LGPL-3.0/alphabetical)
 
-## Description
+  ## Description 
+  hg
 
-Project description goes here
+  ## Table of Contents
 
-## Table of Contents
-
-- [Project Title](#project-title)
   - [Description](#description)
-  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -18,31 +15,21 @@ Project description goes here
   - [Tests](#tests)
   - [Questions](#questions)
 
-## Installation
+  ## Installation
+  fd
 
-```
-npm install
-node index.js
-```
+  ## Usage
+  hh
 
-## Usage
+  ## License
+  GNU LGPL-3.0
 
-- When the app is running answer all questions
-- After all questions view generated README markdown file
+  ## Contributing
+  bg
 
-## License
+  ## Tests
+  vf
 
-MIT License
-
-## Contributing
-
-Open an issue or a pull request and I will sort it.
-
-## Tests
-
-There are no tests for this app
-
-## Questions
-
-- View my [GitHub](https://github.com/Etipriya) profile
-- Email me at bob@email.com
+  ## Questions
+- View my [GitHub](cd) profile
+- Email me at xs

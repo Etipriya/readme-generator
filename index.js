@@ -6,7 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // function to handle your answers
 const handleAnswers = answers => {
   const markdown = generateMarkdown(answers);
-  console.log(markdown);
+  return markdown;
 };
 
 // generic function to get answers for questions
@@ -19,18 +19,14 @@ const getAnswersFromQuestions = async questions => {
 };
 
 // TODO: Create a function to write README file
-function createReadme(answers, generateMarkdown) {
+function createReadme(markdown) {
   //fs
-  fs.writeFile(
-    `./${answers.toLowerCase().split("").join("")}.md`,
-    generateMarkdown,
-    err => {
-      if (err) {
-        console.log(err);
-      }
-      console.log("Your README has been generated");
+  fs.writeFile("./generated-README.md", markdown, err => {
+    if (err) {
+      console.log(err);
     }
-  );
+    console.log("Your README has been generated");
+  });
 }
 
 // TODO: Create a function to initialize app
@@ -86,7 +82,8 @@ const init = async () => {
   ];
 
   const answers = await getAnswersFromQuestions(questions);
-  handleAnswers(answers);
+  const generatedMarkdown = handleAnswers(answers);
+  createReadme(generatedMarkdown);
 };
 
 // Function call to initialize app
