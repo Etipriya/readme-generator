@@ -1,7 +1,7 @@
-# r
+# a
 
   ## Description 
-  h
+  g
 
   ## Table of Contents
 
@@ -14,20 +14,20 @@
   - [Questions](#questions)
 
   ## Installation
-  g
-
-  ## Usage
-  h
-
-  ## License
-  [![License](https://img.shields.io/badge/License-GPL%203.0-purple.svg)](https://opensource.org/licenses/GPL-3.0)
-
-  ## Contributing
   b
 
+  ## Usage
+  c
+
+  ## License
+  [![License](https://img.shields.io/badge/License-BSD%203-black.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+  ## Contributing
+  x
+
   ## Tests
-  v
+  z
 
   ## Questions
-- View my [GitHub](c) profile
-- Email me at x
+- View my [GitHub](m) profile
+- Email me at nh
