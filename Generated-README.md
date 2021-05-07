@@ -1,9 +1,7 @@
-# f
-
-  ![GNU LGPL-3.0license](https://opensource.org/licensesGNU LGPL-3.0/alphabetical)
+# r
 
   ## Description 
-  hg
+  h
 
   ## Table of Contents
 
@@ -16,20 +14,20 @@
   - [Questions](#questions)
 
   ## Installation
-  fd
+  g
 
   ## Usage
-  hh
+  h
 
   ## License
-  GNU LGPL-3.0
+  [![License](https://img.shields.io/badge/License-GPL%203.0-purple.svg)](https://opensource.org/licenses/GPL-3.0)
 
   ## Contributing
-  bg
+  b
 
   ## Tests
-  vf
+  v
 
   ## Questions
-- View my [GitHub](cd) profile
-- Email me at xs
+- View my [GitHub](c) profile
+- Email me at x

@@ -8,7 +8,7 @@ Project description goes here (question 3 - input)
 
 ## Table of Contents
 
-  - [Project Title (question 1 - input)](#project-title-question-1---input)
+- [Project Title (question 1 - input)](#project-title-question-1---input)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -19,14 +19,18 @@ Project description goes here (question 3 - input)
   - [Questions](#questions)
 
 ## Installation
+
 (question 4 - ???)
+
 ```
 npm install
 node index.js
 ```
 
 ## Usage
+
 (question 5 - ???)
+
 - When the app is running answer all questions
 - After all questions view generated README markdown file
 
@@ -35,10 +39,12 @@ node index.js
 MIT License (question 2 - choices)
 
 ## Contributing
+
 (question 6 - input)
 Open an issue or a pull request and I will sort it.
 
 ## Tests
+
 (question 7 - input)
 There are no tests for this app
 

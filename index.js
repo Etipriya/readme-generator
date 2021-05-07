@@ -41,7 +41,7 @@ const init = async () => {
       name: "license",
       type: "list",
       message: "What license did you used?",
-      choices: ["APACHE_2.0", "MIT", "Modified-BSD", "GNU LGPL-3.0", "None"],
+      choices: ["APACHE_2.0", "MIT", "BSD-3.0", "GPL-3.0", "None"],
     },
     {
       name: "description",
@@ -51,18 +51,17 @@ const init = async () => {
     {
       name: "installation",
       type: "input",
-      message: "Instructions to be followed?",
+      message: "What are the installation instructions to be followed?",
     },
     {
       name: "usage",
       type: "input",
-      message: "How do you used your application?",
+      message: "How do you use your application?",
     },
     {
       name: "contribution",
       type: "input",
-      message:
-        "What contribution have you made to pull a request and sort it out?",
+      message: "How can someone contribute to your project?",
     },
     {
       name: "tests",
