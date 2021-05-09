@@ -1,7 +1,7 @@
-# a
+# Weather dashboard
 
   ## Description 
-  g
+  This website shows the current weather and 5-day forecast.
 
   ## Table of Contents
 
@@ -14,20 +14,20 @@
   - [Questions](#questions)
 
   ## Installation
-  b
+  npm install
 
   ## Usage
-  c
+  It shows the current weather and 5-day forecast of the place.
 
   ## License
-  [![License](https://img.shields.io/badge/License-BSD%203-black.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
   ## Contributing
-  x
+  Anyone could add ectra feature in this website like air temperature, atmospheric pressure or solar radiation. It will be beneficial for this website.
 
   ## Tests
-  z
+  There are no test for this application.
 
   ## Questions
-- View my [GitHub](m) profile
-- Email me at nh
+- View my [GitHub](github.com/etipriya) profile
+- Email me at etipriya@gmail.com
