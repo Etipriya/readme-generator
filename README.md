@@ -28,3 +28,7 @@ This is our first project in node.js. We have followed the below steps to create
 ## Link to the github profile
 
 https://github.com/Etipriya/readme-generator
+
+## Link to the video
+
+https://drive.google.com/file/d/1rtEt939q5olwfrffJfPTi8p1jAeGqlyN/view?usp=sharing
